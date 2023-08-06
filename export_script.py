@@ -1,5 +1,5 @@
-# Author: Dave2ooo
-# Description - Export components with varying parameters as 3mf files.
+# Author-Dave2ooo
+# Description-Export components with varying parameters as 3mf files.
 
 import adsk.core, adsk.fusion, adsk.cam, traceback, os, sys, math
 
