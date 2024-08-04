@@ -8,6 +8,7 @@ def run(context):
     ui = None
     try:
         app = adsk.core.Application.get()
+	ui = app.userInterface
 
         des = adsk.fusion.Design.cast(app.activeProduct)
 
